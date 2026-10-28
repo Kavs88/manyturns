@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 56" width="340" height="56" fill="none" role="img" aria-label="Kavanagh Consulting">
+  <!-- Transparent — no board texture fill -->
+  <text x="0" y="32"
+        fill="#EDEDEB"
+        font-family="Castoro Titling, Cinzel, Georgia, serif"
+        font-size="28"
+        font-weight="700"
+        letter-spacing="0.14em">KAVANAGH</text>
+  <text x="340" y="50"
+        text-anchor="end"
+        fill="#8E9094"
+        font-family="Space Mono, ui-monospace, monospace"
+        font-size="9"
+        font-weight="500"
+        letter-spacing="0.32em">CONSULTING</text>
+</svg>

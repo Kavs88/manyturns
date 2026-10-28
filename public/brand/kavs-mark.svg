@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-hidden="true">
+  <!-- Three steel blocks forming a K — desk chrome only -->
+  <rect x="4" y="4" width="7" height="24" rx="1.25" fill="#2F5570"/>
+  <rect x="14" y="4" width="14" height="7" rx="1.25" fill="#5A7D9A"/>
+  <path d="M14 14.5h8.2L28 28h-8.4L14 18.2z" fill="#3A5F7A"/>
+</svg>

@@ -1,0 +1,51 @@
+# Many Turns Parent Site (.cursorrules)
+
+## Session start (every fresh thread)
+1. Read `PROJECT_STATE.md` then `NEXT.md` before proposing or building.
+2. Treat **LOCKED PRODUCT DIRECTION** + **DECISION LOG** in `PROJECT_STATE.md` as law. Do not re-open them for “review” or taste.
+3. Execute the top matching open `NEXT.md` item. Do not invent a new strategy pass.
+4. One slice only. Commit / push only if Sam asks.
+
+## Session end (every slice / stage — mandatory)
+Before you stop: run `NEXT.md` quality gates → update `PROJECT_STATE.md` facts (+ decision log if a new lock) → close finished items in `NEXT.md` → bump Last updated.  
+Do **not** redesign the MD from scratch each time — only patch what changed.  
+Rewrite `.cursorrules` only if the session contract or locked product shape drifted (rare).
+
+## Anti-review theatre (stop wasting Sam)
+- Do **not** ask Sam to re-confirm locked journey-first home, door hero standard, TurnCrossroads, `/built` catalogue-story model, protected winding M, or “no brand grid on `/`”.
+- Do **not** re-assess Stage 1 or re-pitch consulting naming unless the open NEXT item is that decision and Sam asked.
+- Do **not** propose redesigns of live child sites (kavsulting.com / asia-insights.com / Trivia Deck app).
+- Prefer: ship the slice → run quality gates in `NEXT.md` → update canon in place → stop.
+- Ask Sam only for: true blockers, R1/R2/R5/R6/R7/R8 owner=Sam items, or scope expansion beyond NEXT.
+
+## Slice contract (default)
+Authorised: the open NEXT item being executed.  
+Do not touch: locked direction, other ventures’ live codebases, Stage 5 without approval.  
+Done when: NEXT “QUALITY GATES” pass + PROJECT_STATE/NEXT updated.  
+Commit only if asked.
+
+## Stack
+- Next.js App Router + TypeScript (read `node_modules/next/dist/docs/` — this Next differs from training data; see `AGENTS.md`)
+- Tailwind CSS v4 + CSS variables
+- `lucide-react`, `framer-motion`
+- Parent type: UI via existing layout fonts; consulting door uses Castoro Titling → Cinzel + Space Mono (pending Sam wordmark lock)
+
+## Parent visual system (production target)
+- Palette: Midnight `#0B1018` · Deep blue `#174D83` · Steel `#8DCFFF` · Ivory `#F2F2EF`
+- Tagline: **Different paths. One journey.**
+- Philosophy: **Make the complex simple. Not the simple complex.**
+- Master mark: winding-path **M** only (`public/brand/m-mark.svg` / brand board). Not interlocking loops. Not a new mark.
+- Home = journey spine + solution. Not a brand portfolio strip. Not a solutions carousel.
+
+## Product shape (locked)
+- `/` journey turns → Continue this turn → child doors
+- `/advisory` `/asia-insights` `/trivia-deck` = live-child **hero** + left/right **TurnCrossroads**
+- `/built` = catalogue **story** on Many Turns; full catalogue UI stays on Kavsulting
+- Child brands keep market-fit identities; parent endorsement only
+
+## Canon
+- `PROJECT_STATE.md` — intent, facts, locks, research findings, decision log
+- `NEXT.md` — open queue, quality gates, research R1–R8
+- `docs/brand/` — strategy brief, architecture, Stage 1, protected assets
+
+Ignore obsolete “linen / terracotta / four pillars on home / interlocking loops” aesthetics if they appear in old pack notes — superseded by PROJECT_STATE.
