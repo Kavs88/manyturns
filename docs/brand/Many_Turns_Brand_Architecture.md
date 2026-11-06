@@ -14,7 +14,7 @@ Operator’s holding house. Umbrella brand / legal parent that unifies commercia
 |------|--------|---------|
 | Strategic | Kavsulting | SME / founder pivots, diagnosis + execution |
 | Life | Asia Insights | Relocation / life-after-arrival in SEA |
-| Game | Trivia Deck & PubPal | Live venue turns — phones, rounds, host on mic |
+| Game | Trivia Deck (PubPal complementary) | Live venue turns — phones, rounds, host on mic; PubPal is engagement capability inside Trivia Deck, not a co-equal brand |
 
 **Shared standard:** built to survive live, messy contact with real people.
 

@@ -11,7 +11,7 @@
 
 **The consulting business** (today: Kavsulting) is one venture under that umbrella. Its job is to win serious clients with practical, relationship-led work: strategy/ops, AI & bespoke systems, delivery, brand/build, coaching. Its line: *Make the complex simple. Not the simple complex.*
 
-**Child ventures** (Asia Insights, Trivia Deck / PubPal, Represent+, Stage, etc.) keep market-fit identities. Parent endorsement is discrete (“A Many Turns venture” / OÜ signatures). Legal structure ≠ forced visual sameness.
+**Child ventures** (Asia Insights, Trivia Deck, Represent+, Stage, etc.) keep market-fit identities. PubPal is a complementary capability inside Trivia Deck — not a separate child venture for Stage 1. Parent endorsement is discrete (“A Many Turns venture” / OÜ signatures). Legal structure ≠ forced visual sameness.
 
 ---
 

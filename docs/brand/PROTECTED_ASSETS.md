@@ -25,6 +25,15 @@
 - Use the interlocking counter-rotating loops SVG (`components/brand/ManyTurnsLogo.tsx`) as the master mark — scaffold only.
 - Treat the Kavsulting K on this board as approved consulting identity.
 
-### Stage 5 (later)
+### Stage 5 (implemented 2026-11-06)
 
-Recreate as clean scalable SVG (and PNG/print) from this silhouette — not from AI-raster as final production art.
+Clean scalable SVG from this silhouette — not AI-raster as final production art.
+
+| Asset | Path |
+|-------|------|
+| Colour (metallic on midnight tile) | `public/brand/m-mark.svg` |
+| House (maroon tile + ivory path) | `public/brand/m-mark-house.svg` |
+| Mono light / dark | `public/brand/m-mark-mono-light.svg` · `m-mark-mono-dark.svg` |
+| React | `components/brand/MasterMark.tsx` (`house` · `color` · `mono-light` · `mono-dark`) |
+
+Board tokens locked in `app/globals.css` as `--mt-board-*`. Live journey UI remains maroon (MT-H). Do **not** implement the board’s Kavsulting K. Loops scaffold `ManyTurnsLogo` is not the master mark.

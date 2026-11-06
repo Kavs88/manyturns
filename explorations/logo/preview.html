@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Many Turns — logo options #9c0000</title>
+    <style>
+      :root {
+        --red: #9c0000;
+        --white: #f7f4f2;
+        --ink: #1a0a0c;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: #ece8e4;
+        color: var(--ink);
+        padding: 40px 24px 80px;
+      }
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        margin: 0 0 8px;
+      }
+      p.note {
+        font-family: system-ui, sans-serif;
+        font-size: 0.85rem;
+        color: #666;
+        margin: 0 0 32px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        max-width: 1100px;
+      }
+      .card {
+        background: var(--white);
+        border-radius: 12px;
+        padding: 28px;
+        min-height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+      }
+      .card.dark {
+        background: var(--red);
+        color: var(--white);
+      }
+      .card.ink {
+        background: var(--ink);
+        color: var(--white);
+      }
+      .label {
+        font-family: system-ui, sans-serif;
+        font-size: 0.7rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        opacity: 0.55;
+        align-self: flex-start;
+      }
+      .lockup {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .lockup.stack {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+      }
+      .word {
+        font-size: 1.35rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      .word.serif {
+        font-family: Georgia, serif;
+        text-transform: none;
+        letter-spacing: -0.03em;
+        font-size: 1.75rem;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Many Turns — logo options</h1>
+    <p class="note">Colour trial: #9c0000 · silhouette = approved winding M, flat (no Gemini invent)</p>
+    <div class="grid">
+      <div class="card">
+        <div class="label">1 · Icon light</div>
+        <svg width="96" height="96" viewBox="0 0 240 240" fill="none" aria-hidden>
+          <rect width="240" height="240" rx="36" fill="#F7F4F2" stroke="#e6e0da" />
+          <path
+            d="M48 190V70c0-8 10-13 17-7l55 48 55-48c7-6 17-1 17 7v120"
+            stroke="#9c0000"
+            stroke-width="18"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path d="M120 111v48" stroke="#9c0000" stroke-width="14" stroke-linecap="round" />
+        </svg>
+      </div>
+
+      <div class="card dark">
+        <div class="label" style="color: #fff">2 · Icon on red</div>
+        <svg width="96" height="96" viewBox="0 0 240 240" fill="none" aria-hidden>
+          <rect width="240" height="240" rx="36" fill="#9c0000" />
+          <path
+            d="M48 190V70c0-8 10-13 17-7l55 48 55-48c7-6 17-1 17 7v120"
+            stroke="#F7F4F2"
+            stroke-width="18"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path d="M120 111v48" stroke="#F7F4F2" stroke-width="14" stroke-linecap="round" />
+        </svg>
+      </div>
+
+      <div class="card">
+        <div class="label">3 · Horizontal</div>
+        <div class="lockup">
+          <svg width="56" height="56" viewBox="0 0 240 240" fill="none" aria-hidden>
+            <rect width="240" height="240" rx="36" fill="#9c0000" />
+            <path
+              d="M48 190V70c0-8 10-13 17-7l55 48 55-48c7-6 17-1 17 7v120"
+              stroke="#F7F4F2"
+              stroke-width="18"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path d="M120 111v48" stroke="#F7F4F2" stroke-width="14" stroke-linecap="round" />
+          </svg>
+          <span class="word" style="color: #9c0000">Many Turns</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="label">4 · Stacked serif</div>
+        <div class="lockup stack">
+          <svg width="64" height="64" viewBox="0 0 240 240" fill="none" aria-hidden>
+            <path
+              d="M48 190V70c0-8 10-13 17-7l55 48 55-48c7-6 17-1 17 7v120"
+              stroke="#9c0000"
+              stroke-width="18"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path d="M120 111v48" stroke="#9c0000" stroke-width="14" stroke-linecap="round" />
+          </svg>
+          <span class="word serif" style="color: #9c0000">Many Turns</span>
+        </div>
+      </div>
+
+      <div class="card ink">
+        <div class="label" style="color: #fff">5 · On oxblood site</div>
+        <div class="lockup">
+          <svg width="48" height="48" viewBox="0 0 240 240" fill="none" aria-hidden>
+            <rect width="240" height="240" rx="36" fill="#F7F4F2" />
+            <path
+              d="M48 190V70c0-8 10-13 17-7l55 48 55-48c7-6 17-1 17 7v120"
+              stroke="#9c0000"
+              stroke-width="18"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path d="M120 111v48" stroke="#9c0000" stroke-width="14" stroke-linecap="round" />
+          </svg>
+          <span class="word" style="color: #f7f4f2; letter-spacing: 0.2em; font-size: 0.75rem"
+            >Many Turns</span
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="label">6 · Wordmark only</div>
+        <span class="word serif" style="color: #9c0000; font-size: 2.25rem">Many Turns</span>
+        <span
+          style="
+            font-family: system-ui, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #9c0000;
+            opacity: 0.7;
+          "
+          >Different paths. One journey.</span
+        >
+      </div>
+    </div>
+  </body>
+</html>

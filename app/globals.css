@@ -1,28 +1,150 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0b1018;
-  --foreground: #f2f2ef;
-  --mt-midnight: #0b1018;
-  --mt-deep: #174d83;
-  --mt-steel: #8dcfff;
-  --mt-ivory: #f2f2ef;
+  /* Live journey house (MT-H) — maroon surface */
+  --background: #1a0a0c;
+  --foreground: #f7f4f2;
+  --mt-maroon: #9c0000;
+  --mt-oxblood: #240307;
+  --mt-wine: #350e14;
+  --mt-signal: #9c0000;
+  --mt-white: #f7f4f2;
+  --mt-muted: rgba(247, 244, 242, 0.68);
+  --mt-muted-strong: rgba(247, 244, 242, 0.82);
+  --mt-ink-muted: rgba(26, 10, 12, 0.62);
+
+  /* Stage 5 board kit — locked 2026-11-06 (mark colour apps; not live UI flip) */
+  --mt-board-midnight: #0b1018;
+  --mt-board-deep: #174d83;
+  --mt-board-steel: #8dcfff;
+  --mt-board-ivory: #f2f2ef;
+
+  /* Legacy aliases → live maroon system (board kept under --mt-board-*) */
+  --mt-midnight: var(--mt-oxblood);
+  --mt-deep: var(--mt-maroon);
+  --mt-steel: var(--mt-signal);
+  --mt-ivory: var(--mt-white);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-mt-midnight: #0b1018;
-  --color-mt-deep: #174d83;
-  --color-mt-steel: #8dcfff;
-  --color-mt-ivory: #f2f2ef;
+  --color-mt-maroon: #9c0000;
+  --color-mt-oxblood: #240307;
+  --color-mt-wine: #350e14;
+  --color-mt-signal: #9c0000;
+  --color-mt-white: #f7f4f2;
+  --color-mt-midnight: #240307;
+  --color-mt-deep: #5c0a1a;
+  --color-mt-steel: #8b2e3c;
+  --color-mt-ivory: #f7f4f2;
 
   --font-sans: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
   --font-body: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), ui-serif, Georgia, serif;
   --font-mono: var(--font-mono-face), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "ss01" on, "kern" on;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #9c0000;
+  color: #f7f4f2;
+}
+
+:focus-visible {
+  outline: 2px solid #9c0000;
+  outline-offset: 3px;
+}
+
+.mt-eyebrow {
+  font-family: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  line-height: 1.35;
+}
+
+.mt-display {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 0.94;
+}
+
+.mt-title {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.028em;
+  line-height: 1.06;
+}
+
+.mt-claim {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.022em;
+  line-height: 1.28;
+}
+
+.mt-prose {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.011em;
+  line-height: 1.62;
+}
+
+.mt-meta {
+  font-family: var(--font-mono-face), ui-monospace, monospace;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+.mt-wordmark {
+  font-family: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.mt-cta {
+  font-family: var(--font-ui), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+.mt-cta-fill {
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.mt-cta-fill:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+.mt-cta-fill:active {
+  transform: translateY(0);
+  filter: brightness(0.98);
+}
+
+/* Kavsulting consideration craft — light film grain */
+.mt-noise {
+  pointer-events: none;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }

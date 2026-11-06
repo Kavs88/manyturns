@@ -5,7 +5,7 @@ import { ParentShell } from '@/components/site/ParentShell';
 export const metadata: Metadata = {
   title: 'Many Turns',
   description:
-    'Different paths. One journey. Many Turns is the house for journeys people have already been through — and the solution that holds when the path turns.',
+    'Named for Odysseus — the man of many turns. Many journeys: travel, improvement, enjoyment. Find the real problem. Finish the turn.',
 };
 
 export default function HomePage() {

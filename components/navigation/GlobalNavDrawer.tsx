@@ -56,6 +56,11 @@ const assets = [
   },
 ] as const;
 
+/**
+ * OBSOLETE — quarantined from the public journey (MT-C seq 3 / 2026-11-06).
+ * PubPal co-equal, Stage door, loops mark, parked triviadeck.com.
+ * Not imported by live routes; /stage redirects home. Keep file for archive only.
+ */
 export const GlobalNavDrawer: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 

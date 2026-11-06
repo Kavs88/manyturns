@@ -1,9 +1,14 @@
 # Product Requirements Document (PRD): Many Turns Parent Portal
 
+> **HISTORICAL / SUPERSEDED — do not implement from this file.**  
+> This PRD records an earlier four-pillar / Stage-inclusive draft (including sand/terracotta tokens). It is retained for history only.  
+> It does **not** override current journey-first product decisions. For authoritative direction use **`PROJECT_STATE.md`**, **`NEXT.md`**, and current brand docs under **`docs/brand/`**.  
+> The Stage remains quarantined from the public journey; do not restore that direction from this document.
+
 ## 1. Executive Summary
 - **Entity**: Manyturns OÜ (Registered in Estonia)
 - **Founder**: Sam Kavanagh
-- **Core Narrative**: Based on Homer's Odyssey (*polytropos* — "the man of many turns"). Unites strategic business turns (Kavsulting), life relocation turns (Asia Insights), and room/game turns (Trivia Deck & Live Hosting).
+- **Core Narrative**: Based on Homer's Odyssey (*polytropos* — "the man of many turns"). Unites strategic business turns (Kavsulting), life relocation turns (Asia Insights), and room/game turns (Trivia Deck — live hosting; PubPal complementary engagement inside that proposition).
 - **Primary Proposition**: An operator house and software studio that builds systems for critical transitions.
 
 ## 2. Information Architecture
@@ -13,7 +18,7 @@
   - **The 4 Operating Pillars (Grid)**:
     1. Commercial Advisory (Kavsulting)
     2. Platform & Relocation (Asia Insights)
-    3. Live Entertainment SaaS (Trivia Deck & PubPal)
+    3. Live Entertainment SaaS (Trivia Deck; PubPal complementary)
     4. The Stage (MCing, Comedy & Events)
   - **The Horizontal Engine**: "We Build Software" — highlighting bespoke internal tools, live venue engines, and real-world deployment.
   - **Founder Statement**: Sam Kavanagh's background bridging Europe and SEA.

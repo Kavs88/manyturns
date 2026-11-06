@@ -3,7 +3,7 @@
 **Canonical.** Single source of truth for this project. Update in place.  
 **Fresh threads:** read this file + `NEXT.md` first. `.cursorrules` encodes the same session contract.
 
-**Last updated:** 2026-10-28
+**Last updated:** 2026-11-06 (R7 deferred — registry unfinished; contacts later; footer stays soft; no commit/push/deploy)
 
 ---
 
@@ -13,7 +13,7 @@
 2. **Locks are closed.** Anything in LOCKED PRODUCT DIRECTION or DECISION LOG is decided. Do not re-review, re-pitch, or “sense-check” with Sam unless new evidence contradicts a fact.
 3. **One slice.** Authorised / Do not touch / Done when / Commit only if asked.
 4. **Quality gates** live in `NEXT.md` — run them before claiming done. That is the review; Sam is not a standing design-review board.
-5. **Ask Sam only when:** owner=Sam on NEXT (R1 wordmark, R2 naming, R5 photo, R6 individual journeys intent, R7 imprint, R8 deploy), a true blocker, or scope outside NEXT.
+5. **Ask Sam only when:** owner=Sam on NEXT (R5 photo, R6 individual journeys intent, R7 imprint, R8 deploy), a true blocker, or scope outside NEXT. (R1/R2 locked 2026-11-02.)
 6. **End of every slice / stage (mandatory — before you stop):**
    - Update **CURRENT TECHNICAL FACTS** if routes, doors, or stack facts changed.
    - Add a **DECISION LOG** row only if something new was locked.
@@ -31,38 +31,55 @@
 ## PROJECT INTENT
 
 **Why does this project exist?**
-Parent holding / umbrella presence for Manyturns OÜ (manyturns.co / manyturns.ee): journey + solution first; institutional trust. Not a brand portfolio strip. Not a replacement for child brand sites.
+Parent / operator-house presence for Manyturns OÜ (manyturns.co / manyturns.ee): **story-first path** (*polytropos* — Odysseus, man of many turns). Career and venture stops compose one offering. Institutional trust without a brand-portfolio strip. Not a replacement for child brand sites.
 
 **Who is it for?**
-Partners, banks, investors, high-value clients, and anyone who needs the house door into the ventures.
+Partners, banks, investors, high-value clients, and anyone who needs the house door into the ventures — arriving via the lived path, not a product grid.
 
 **What is explicitly out of scope (for now)?**
-- Stage 5 production brand kit until Sam selects consulting direction
+- Letting **Kavsulting drive** parent IA/palette/narrative (Kavsulting = presentation reference for consideration craft only)
+- Flipping live journey UI from maroon back to navy board chrome (board tokens locked for mark apps only)
 - Forcing identical look across Asia Insights, Trivia Deck, consulting on the **home**
 - Claiming domain/TM availability without checks
-- Inventing a new master mark (winding M is protected)
+- Inventing Homeric episodes or Stitch-hallucinated metrics/cities as public copy
 - Three brand cards / portfolio grid on `/`
+- Renaming the consulting door (Kavsulting retained — MT-B R2)
+- Treating `/stage` or `GlobalNavDrawer` as current public portfolio (obsolete — quarantine required)
+- Older navy Parent Stitch / brand-grid concepts as the design direction
+- Maps embeddings / landfall backfill as a blocker (deferred)
 
 ---
 
 ## CURRENT TECHNICAL FACTS
 
 - Stack: Next.js 16 (App Router, TypeScript), Tailwind CSS v4, lucide-react, framer-motion
-- Path: `E:\TRAVEL-2026-10-27\PROJECTS\Many Turns\manyturns`
-- Dev: `npm run dev` → http://localhost:3000
-- GitHub: `gh` authenticated as **Kavs88**
-- Home (`/`) = journey-first: hero → solution → numbered turns (01–08) → philosophy close
-- Path-only turns: 01–03 bank/programme/network; 06 Borneo. Cue turns: 04 practice → `/advisory`; 05 **Built along the way** → `/built`; 07 Asia Insights; 08 Trivia Deck. No brand grid on `/`
-- Venture doors (`/advisory`, `/asia-insights`, `/trivia-deck`) = live child **hero** + **TurnCrossroads** (left = journey, right = live site). Asia Insights uses `barTone="light"`
-- `/built` = Many Turns catalogue **story** (timeline beats); full solutions UI stays on kavsulting.com `#built`. Decision: bring the story up, not the carousel
-- Consulting wordmark: live CSS wants Castoro Titling 700; Google only has 400 → Cinzel 700 fallback. Door mirrors that stack pending Sam’s lock (Castoro self-host vs Cinzel)
-- Trivia Deck live product: `https://quiztation-v2.vercel.app` (`triviadeck.com` is parked; do not link it)
-- Copy source: career-vault records with `verified_by: "user"` (`lib/journey.ts`)
+- **Writable engineering checkout (MT-E 2026-11-02):** `C:\Users\admin\Documents\Many Turns\manyturns-authoritative` — fresh clone of `Kavs88/manyturns` `master` @ `0b9b1ae`, then Docs decision canon + craft-maturity working tree transferred. **Sole writable engineering source** going forward. Do not edit the preserved reference trees: `C:\Users\admin\Documents\Many Turns\manyturns` (no `.git`) or `E:\TRAVEL-2026-10-27\PROJECTS\Many Turns\manyturns` (legacy Git checkout; dubious-ownership on this machine).
+- Reference trees remain **read-only archives** until Sam says otherwise. GitHub `master` remains the **committed** baseline until a separately approved commit/push.
+- Craft-maturity UI/code in this checkout is **preserved working change** beneath MT-A copy (Stage quarantine, Castoro apply still separately gated).
+- Dev: from authoritative checkout `npm run dev` → http://localhost:3000
+- GitHub: `Kavs88/manyturns` (public). Vercel project linked historically (`.vercel/` may be absent in fresh clone). Served URL probed at MT-C: `https://manyturns.vercel.app` (200). **Deploy drift:** working home closer to locked MT-A than served Vercel — do not treat Vercel as SoR; no publish until Sam authorises after reconcile.
+- Custom domains **`manyturns.co` / `manyturns.ee` do not currently resolve** (MT-C DNS probe). Not production on those hosts.
+- Stitch preferred parent source: **Many Turns Parent** `projects/8244502986129424793` (`stitch.json`, `DESIGN.md`, `next-prompt.md`). Older brand-grid / partner-logo Stitch concepts (e.g. Parent Hub `…169991…`, `explorations/stitch/operator-house-landing.jpg`) are **not** the parent direction.
+- Home (`/`) = **MT-H10 + craft pass:** desire-to-deal spine — conversation-first hero + dark close ask; idea claim scale; **Held evidence loop**; **four full-bleed journey thresholds** (not card grid); composed; path hierarchy. Sticky shell: Talk mailto + The path. **Type:** Fraunces display + **Manrope** UI + **Inter** body (+ JetBrains Mono meta). Film grain `.mt-noise`. Hero parallax/path-draw gated post-mount. Section rhythm tightened 2026-11-06.
+- Stitch exploration: project `13271286097289408770` — Wake / Landfall / Ribbon; local PNGs under `explorations/stitch/`. **Wake** is working visual default; Stitch copy discarded where it invents.
+- Journey spine harvest: `docs/brand/JOURNEY_SPINE.md`. Turns in `lib/journey.ts` now 01–10 (adds Jersey volunteering + Blue Square from vault).
+- Kavsulting = **present-for-consideration** craft reference — not parent driver.
+- Path-only: 01–05, 08. Cue stops: 06 practice → `/advisory`; 07 Built → `/built`; 09 Asia Insights; 10 Trivia Deck. No brand grid on `/`.
+- Venture doors = **`ThresholdDoor`**: ribbon → full-bleed door photography + wash → path beat → child mark → continue → `TurnCrossroads`. Through-handoff, not child clones. **R5 (2026-11-06):** Asia door = Sam drone mountain valley (`DJI_0436` → `public/brand/door-asia.jpg`); home Travel tile = coastal dawn (`IMG_20240711_050950` → `turn-life.jpg`). Own photos from `Pictures/AsiaInsights`.
+- `/built` = catalogue **story**; depth on kavsulting.com `#built`. PIP beat correctly framed as non-product.
+- `/stage` + `GlobalNavDrawer` = **quarantined** (2026-11-06): `/stage` redirects `/`; drawer unused on live routes (archive file retained). Obsolete portfolio (PubPal co-equal, parked `triviadeck.com`, Stage door, loops mark) is off the public journey.
+- Footer imprint **R7 deferred (2026-11-06):** registry not finished; contacts later. Public footer = © Manyturns OÜ only — **no** registry # / “Registered in Estonia” until Sam supplies fields. Interim Talk mailto = `sam@kavsulting.com`.
+- Consulting wordmark **locked (MT-B R1) + applied (craft pass 2026-11-06):** Castoro Titling **400** on `/advisory` (Cinzel / 700 removed). Parent type Manrope / Inter / mono live.
+- Trivia Deck live product URL: `https://quiztation-v2.vercel.app` (`triviadeck.com` parked; do not link it on current doors).
+- Copy source for journey beats: career-vault `verified_by: "user"` (`lib/journey.ts`)
 - `/preview` redirects to `/`
-- Protected master **M**: `docs/brand/references/many-turns-m-brand-board.jpg` + `public/brand/m-mark.svg`
-- Brand canon: `docs/brand/`
-- PIP vault (readable): `E:\TRAVEL-2026-10-27\PROJECTS\Personal Intelligence Platform\Career Intelligence Engine\career-vault\`
+- Protected master **M (Stage 5 2026-11-06):** production SVGs in `public/brand/m-mark*.svg`; React `MasterMark` on ParentShell + DoorShell + `/icon`. Board palette locked as `--mt-board-*` in `globals.css`. Live surface remains maroon house. Kavsulting K on the board **not** implemented. Loops `ManyTurnsLogo` is not the master mark.
+- Brand canon: `docs/brand/` (see `PROTECTED_ASSETS.md` Stage 5 table)
+- PIP vault (readable): under Personal Intelligence Platform `Career Intelligence Engine/career-vault/`
 - Engine CLI / venv: not assumed available on this machine
+- **MT-C (2026-11-02):** audit completed and accepted; **no implementation changes** from that pass. R1/R2 remain locked.
+- **MT-E (2026-11-02):** fresh Git clone established as writable SoR path; approved MT-A/B/C decision docs transferred; craft-maturity working files preserved as uncommitted diff vs `0b9b1ae`. KEITH/PIP capability-discovery locks and the external-intelligence programme charter remain in PIP (`WORKING_PARTNER_ROADMAP.md` / `CURSOR_OPERATOR.md` / Engine `NEXT.md` / `design/MANY_TURNS_EXTERNAL_INTELLIGENCE/`) — not duplicated into this website repo.
+- **MT-G (2026-11-02):** `PRD.md` marked **historical/superseded** (pointer to `PROJECT_STATE` / `NEXT` / `docs/brand/`); MT-A homepage wording applied in code. No commit/push/deploy.
 
 ---
 
@@ -70,7 +87,7 @@ Partners, banks, investors, high-value clients, and anyone who needs the house d
 
 1. **Home = journey + solution.** “Continue this turn” is good. Keep it.
 2. **More turns from PIP** — vault has more situations than the current four; expand the path from verified career-vault records (founder, Borneo, Asia Insights, Kavsulting, Quiztation/Trivia Deck, banking/gov/telecom, etc.). Prefer `verified_by: "user"`.
-3. **Do not park on stub pages.** When you continue into a venture, the **first viewport must match the live child hero** — exact identity, not a budget paraphrase — then negotiate into the full live site. Home stays parent system only.
+3. **Do not park on stub pages.** Venture doors are **direction through** the path into the live child — path context + child mark + clear continue — not a second copy of the child homepage. Depth lives on the live site. Home stays parent system only.
 4. **Tiles / chapter entries** should start to show visual alignment with each destination (preview of that brand’s look), without turning home into a three-brand carnival.
 5. Fresh agent thread preferred for next build (context/token burn).
 6. **Catalogue story on Many Turns; depth on Kavsulting.** `/built` narrates how systems proceeded from the practice; do not clone the Kavsulting solutions grid onto `/`.
@@ -122,9 +139,26 @@ Potting Shed is useful as a **Channel Islands peer that sequences brand work as 
 | 2026-10-28 | `/advisory` = Kavsulting hero + handoff, not a rewritten intro | Sam: identity must match the live top; then negotiate over |
 | 2026-10-28 | Note: individual journeys + skills → ventures (later) | Sam: founding member first; visual/manual, not a worksheet |
 | 2026-10-28 | TurnCrossroads on venture doors (left/right turn) | Sam: turn back to Many Turns / turn into the practice |
-| 2026-10-28 | Open: lock consulting wordmark font (Castoro vs Cinzel) | Live brand CSS vs what Google actually serves |
 | 2026-10-28 | Research: pottingshed.com — findings in PROJECT_STATE | Useful: purpose→identity→activation order, CI adjacency, blunt principles. Ignore: yellow agency chrome, package ladder, clone copy |
 | 2026-10-28 | Asia + Trivia doors to hero + TurnCrossroads; `/built` catalogue story | Sam: BD as path, not a brand grid; depth stays on Kavsulting |
+| 2026-10-28 | Parent craft maturity from Kavsulting — not IA clone | Steal claim/CTA craft; PIP solution sentence; shorter turns; keep journey-first |
+| 2026-11-02 | MT-A accepted (representation/copy foundation) | Operator house; shared principle understand→create→stay; hero/solution lines; philosophy shared; portfolio map; board purpose rejected |
+| 2026-11-02 | **R1:** Consulting wordmark = Castoro Titling **400**; Cinzel not the mark; parent Manrope/Inter/mono retained | Honest available cut; stop accidental Cinzel-via-700 |
+| 2026-11-02 | **R2:** Retain Kavsulting / Kavanagh Consulting; defer rename | Continuity; door separation; no Many Turns Consulting |
+| 2026-11-02 | **MT-C accepted** (assessment only; no code/deploy) | Local closer to MT-A than served Vercel; reconcile checkout/GitHub/Vercel before publish; quarantine `/stage`+drawer; domains unresolved; footer vs R7; verify Trivia/Asia claims; Stitch Parent `824450…` preferred; Castoro apply + Stage 5 still gated |
+| 2026-11-02 | **MT-G:** PRD demoted historical; MT-A homepage copy applied | Exact accepted hero/solution/shared-principle lines in `JourneyHome` + metadata; Stage/Castoro/Stage 5 untouched; no commit/push/deploy |
+| 2026-11-05 | **MT-H maroon breath** | Story-first + stops compose offering; maroon/white supersedes navy board for this breath; Kavsulting = consideration craft not driver; Stitch new project Wake/Landfall/Ribbon; Wake default in code; JOURNEY_SPINE + expanded turns; maps backfill deferred; no commit/push/deploy |
+| 2026-11-06 | **MT-H6 door elevation** | Frame not rename: DoorShell + lineage; child heroes + names stay; left turn = house maroon; software stays under Systems/Built |
+| 2026-11-06 | **MT-H7 through-doors** | Sam: public meta notes feel weird; advisory overlap with Kavsulting → doors = handoff not clone; strip lineage/“Think”/architecture asides |
+| 2026-11-06 | **MT-H8 PIP craft level-up** | Desire-first full-bleed hero; Held evidence loop (Vault credibility pattern + journey Held); ThresholdDoor photo handoffs; grain from Kavsulting craft |
+| 2026-11-06 | **MT-H9 path hierarchy + spacing** | Path-only beats compact; cue stops earn weight; chapter rhythm (contrast vs same-tone); journey copy de-echoed; hydration harden (parallax mount + static list articles) |
+| 2026-11-06 | **MT-H10 desire-to-deal home** | Conversation ask (hero/header/close); full-bleed journey thresholds; sticky Talk shell; globals selection/CTA hover; ThresholdDoor CTA presence; build green |
+| 2026-11-06 | **Get-there A–D** | `/stage` redirect quarantine; drawer archive; Asia/Trivia door claims clean (no invented lifts — child “24h” stays on asia-insights.com, not MT door); `/built` beats provenance-softened; ThresholdDoor/TurnCrossroads/built presence harden; ThresholdDoor motion live-gated (hydration) |
+| 2026-11-06 | **Stage 5** | Sam: proceed — production winding-M SVG + `--mt-board-*` tokens locked; `MasterMark` on shell/doors/favicon; live journey stays maroon; board Kavsulting K not implemented |
+| 2026-11-06 | **R5 Asia photo** | Sam pointed `Pictures/AsiaInsights`; door = DJI_0436 mountain valley; home Travel = IMG_20240711 coastal dawn; replaced prior door screenshot |
+| 2026-11-06 | **Craft pass** | Manrope UI + Inter body (Fraunces display); Castoro 400 on `/advisory`; tighter home rhythm; ThresholdDoor/TurnCrossroads/built hierarchy + mobile safe-area |
+| 2026-11-06 | **Full polish** | Asia door recrop; per-door/journey `objectPosition`; PathProgress + scroll-mt; footer craft (no fake R7); OG + apple-icon; Kavsulting `.logo` Castoro 400 |
+| 2026-11-06 | **R7 deferred** | Sam: OÜ registry not finished; contact later. Keep soft footer; do not invent imprint |
 
 ---
 
