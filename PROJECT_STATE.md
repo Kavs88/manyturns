@@ -3,7 +3,7 @@
 **Canonical.** Single source of truth for this project. Update in place.  
 **Fresh threads:** read this file + `NEXT.md` first. `.cursorrules` encodes the same session contract.
 
-**Last updated:** 2026-11-06 (R7 deferred — registry unfinished; contacts later; footer stays soft; no commit/push/deploy)
+**Last updated:** 2026-11-06 (GitHub push d97721b + Vercel production deploy; R7 still deferred)
 
 ---
 
